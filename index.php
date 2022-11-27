@@ -14,6 +14,7 @@
     <h1>Hello, world!</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
+    <!-- Ini navbar sitenya -->
     <div>
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
@@ -45,6 +46,7 @@
     </div>
       </nav>
 
+      <!-- Ini bagian gambar slide -->
     <div class="bar">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
@@ -53,7 +55,7 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         
-        
+        <!-- Ini bagian pertama gambar slide -->
         <div class="carousel-inner" style="height:30rem ;">
           <div class="carousel-item active">
             <img src="slide1.png" class="d-block w-100" alt="..." style="height:30rem ;">
@@ -62,6 +64,7 @@
               <p>Villa is a spacious and comfortable room located in the heart of the city. The hotel offers a collection of amenities for the discerning guests.</p>
             </div>
           </div>
+          <!-- Ini bagian kedua gambar slide -->
           <div class="carousel-item">
             <img src="slide2.png" class="d-block w-100" alt="..." style="height:30rem ;">
             <div class="carousel-caption d-none d-md-block">
@@ -69,6 +72,7 @@
               <p>Get the best information about Villa, Room, Deluxe. This is a detailed beginner's guide.</p>
             </div>
           </div>
+          <!-- Ini bagian ketiga gambar slide -->
           <div class="carousel-item">
             <img src="slide3.png" class="d-block w-100" alt="..." style="height:30rem ;">
             <div class="carousel-caption d-none d-md-block">
@@ -77,6 +81,7 @@
             </div>
           </div>
         </div>
+        <!-- Ini button untuk mengganti slides -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -86,6 +91,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <!-- Ini adalah deskripsi Jogja heritage -->
 <section id="intro">
         <div class="intro" style="text-align:center ;">
       <h1><strong>JOGJA HERITAGE SITE</strong></h1>
@@ -102,8 +108,8 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
-
     </section>
+    <!-- Ini bagian penjelasan fasilitas villa  -->
   <section id="isi">
       <div class="poll-content">
         <div class="poll">
@@ -150,7 +156,7 @@
     </div>
   </section>
 
-
+  <!-- Ini bagian Footer -->
   <nav class="navbar fixed-bottom navbar-dark bg-dark" style="height: 10% ;">
 
                     <div class="Buttons" style="padding-left: 35% ;">
@@ -180,7 +186,7 @@
     
 
 
-  <!-- Code injected by live-server -->
+  <!-- Code ini untuk Bootstrap -->
 <script>
 	// <![CDATA[  <-- For SVG support
 	if ('WebSocket' in window) {
